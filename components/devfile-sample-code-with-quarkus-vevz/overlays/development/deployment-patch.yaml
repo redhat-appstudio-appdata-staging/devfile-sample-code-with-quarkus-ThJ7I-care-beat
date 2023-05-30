@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-vevz
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/kkanova-tenant/devfile-sample-code-with-quarkus/devfile-sample-code-with-quarkus-vevz@sha256:1395c3e5b0dc9c1f99a7e069549f55fef0ab630ea2189b43db085958656dc3a2
+        name: my-java-quarkus
+        resources: {}
+status: {}
