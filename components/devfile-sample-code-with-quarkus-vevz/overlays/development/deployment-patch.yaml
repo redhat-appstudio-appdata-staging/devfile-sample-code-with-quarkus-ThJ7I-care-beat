@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-code-with-quarkus-vevz
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
